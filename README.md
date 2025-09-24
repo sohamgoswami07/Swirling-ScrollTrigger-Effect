@@ -16,13 +16,13 @@ As you scroll, images elegantly animate outward in a circular swirl pattern, cre
 
 ## 📸 Preview
 
-<video src="https://github.com/sohamgoswami07/Web-Directory/blob/main/public/Projects/Swirling.mp4" width="600" autoplay muted loop playsinline></video>
+<img width="1891" height="943" alt="Screenshot 2025-09-24 164922" src="https://github.com/user-attachments/assets/acae84ee-4b74-4f94-8aa5-e390875a3673" />
 
 ---
 
 ## 🌐 Live Demo
 Check out the live project here:  
-[👉 [Live Demo Link](https://your-live-demo-link.com)](https://sohamgoswami07.github.io/Swirling-ScrollTrigger-Effect/)
+[👉 [Live Demo Link](https://sohamgoswami07.github.io/Swirling-ScrollTrigger-Effect/)]
 
 ---
 
@@ -41,7 +41,9 @@ Check out the live project here:
    ```bash
    git clone https://github.com/your-username/your-repo.git
    cd your-repo
-````
+   ```
+
+---
 
 2. **Install dependencies**
 
