@@ -1,0 +1,65 @@
+/* --- CSS Custom Properties (Design Tokens) --- */
+:root {
+  /* Color Palette */
+  --color-bg-primary: #030303;
+  --color-bg-secondary: #0a0a0a;
+  --color-text-primary: #f4f4f4;
+  --color-text-secondary: #a0a0a0;
+  --color-accent: #ffffff;
+
+  /* Spacing */
+  --spacing-xs: 4px;
+  --spacing-sm: 8px;
+  --spacing-md: 16px;
+  --spacing-lg: 24px;
+  --spacing-xl: 32px;
+  --spacing-2xl: 48px;
+
+  /* Sizing */
+  --image-height: 200px;
+  --border-radius-sm: 5px;
+  --border-radius-md: 10px;
+  --border-radius-lg: 15px;
+
+  /* Layout */
+  --container-height: 100svh;
+  --full-width: 100%;
+
+  /* Positioning */
+  --center-position: 50%;
+}
+
+/* --- Reset & Base Styles --- */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--color-bg-primary);
+  color: var(--color-text-primary);
+  height: var(
+    --container-height
+  ); /* Use small viewport height for better mobile support */
+  width: var(--full-width);
+  overflow-x: hidden; /* Prevent horizontal scroll */
+}
+
+/* --- Layout Containers --- */
+.container {
+  position: relative;
+  height: var(--container-height);
+}
+
+/* --- Image Styles --- */
+.image {
+  position: absolute;
+  top: var(--center-position);
+  left: var(--center-position);
+  transform: translate(-50%, -50%); /* Center the image initially */
+  height: var(--image-height);
+  width: auto;
+  border-radius: var(--border-radius-sm);
+  will-change: transform; /* Optimize for animation */
+}
