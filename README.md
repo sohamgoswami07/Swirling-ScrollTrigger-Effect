@@ -103,11 +103,10 @@ Check out the live project here:
 
 ## 📦 Installation & Setup
 
-**Clone the repo**
+**Clone the repo and open the html file**
    ```bash
    git clone https://github.com/your-username/your-repo.git
    ```
-Open the html file.
 ---
 
 ## ⚙️ How It Works
