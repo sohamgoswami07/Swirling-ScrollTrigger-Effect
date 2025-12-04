@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Swirling ScrollTrigger Effect
 
 A visual web experiment featuring a swirling image gallery animation triggered by scrolling. This project demonstrates how to create complex, high-performance scroll-linked animations using GSAP and Lenis.
@@ -104,32 +103,11 @@ Check out the live project here:
 
 ## 📦 Installation & Setup
 
-1. **Clone the repo**
+**Clone the repo**
    ```bash
    git clone https://github.com/your-username/your-repo.git
-   cd your-repo
    ```
-
----
-
-2. **Install dependencies**
-
-   ```bash
-   npm install
-   ```
-
-3. **Run locally**
-
-   ```bash
-   npm run dev
-   ```
-
-4. Open in your browser at:
-
-   ```
-   http://localhost:5173
-   ```
-
+Open the html file.
 ---
 
 ## ⚙️ How It Works
@@ -145,4 +123,4 @@ Check out the live project here:
 
 * [GSAP](https://greensock.com/gsap/) for powerful animation tools.
 * [Lenis](https://lenis.studiofreight.com/) for buttery smooth scrolling.
->>>>>>> 480fdc1184cecdd5636b0aee5e73bb0b4b93ab3e
+
