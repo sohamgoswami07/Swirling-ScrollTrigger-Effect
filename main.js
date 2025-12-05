@@ -38,11 +38,11 @@ document.addEventListener("DOMContentLoaded", () => {
     // Determine the radius of the circle based on the viewport width
     let radius;
     if (window.innerWidth <= 768) {
-      radius = 800; // Mobile
+      radius = 1200; // Mobile
     } else if (window.innerWidth <= 1024) {
-      radius = 1200; // Tablet
+      radius = 1800; // Tablet
     } else {
-      radius = 1600; // Desktop
+      radius = 2400; // Desktop
     }
 
     // Calculate the angle step for distributing images in a circle
